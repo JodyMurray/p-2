@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&family=Luxurious+Roman&display=swap');
 
-#character {
-    width: 5px;
-    height: 5px;
+#crystal {
+    height: 73px;
+    width: 75px;
+    background-color: #bbb;
+    border-radius: 50%;
     position: relative;
-    top: 100px;
+    padding: 6px;
+}
+header {
+    background-image: url(../images/sky.jpeg);
+    opacity: 40%;
+}
+span > img {
+    position: relative;
+    top: 20px;
+}
+
+#ball {
+    position: relative;
+    top: -10%;
+    left: 22%;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    margin-top: -2%;
+}
+
+div img {
+    opacity: 70%;
+}
+
+
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+    font-family: 'Gideon Roman', 'Luxurious Roman';
+    font-size: 50px;
+}
+#game {
+    position: relative;
 }
