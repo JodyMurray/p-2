@@ -8,10 +8,7 @@
     position: relative;
     padding: 6px;
 }
-header {
-    background-image: url(../images/sky.jpeg);
-    opacity: 40%;
-}
+
 span > img {
     position: relative;
     top: 20px;
@@ -40,4 +37,15 @@ h1 {
 }
 #game {
     position: relative;
+}
+
+#question-btn {
+    font: 30px 'Gideon Roman', 'Luxurious Roman';
+    border-radius: 5px;
+    border: none;
+    color: #f8f8f8;
+    background-color: #2c5699;
+    padding: 12px 75px;
+    display: block;
+    margin: 0 auto;
 }
